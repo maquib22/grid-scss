@@ -1,0 +1,171 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-style {
+  background-color: #cacaca;
+  border: 1px solid #000;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row .col {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row .l1 {
+  flex: 0 0 8.3333333333%;
+}
+.row .l2 {
+  flex: 0 0 16.6666666667%;
+}
+.row .l3 {
+  flex: 0 0 25%;
+}
+.row .l4 {
+  flex: 0 0 33.3333333333%;
+}
+.row .l5 {
+  flex: 0 0 41.6666666667%;
+}
+.row .l6 {
+  flex: 0 0 50%;
+}
+.row .l7 {
+  flex: 0 0 58.3333333333%;
+}
+.row .l8 {
+  flex: 0 0 66.6666666667%;
+}
+.row .l9 {
+  flex: 0 0 75%;
+}
+.row .l10 {
+  flex: 0 0 83.3333333333%;
+}
+.row .l11 {
+  flex: 0 0 91.6666666667%;
+}
+.row .l12 {
+  flex: 0 0 100%;
+}
+@media only screen and (max-width: 1024px) {
+  .row .m1 {
+    flex: 0 0 8.3333333333%;
+  }
+  .row .m2 {
+    flex: 0 0 16.6666666667%;
+  }
+  .row .m3 {
+    flex: 0 0 25%;
+  }
+  .row .m4 {
+    flex: 0 0 33.3333333333%;
+  }
+  .row .m5 {
+    flex: 0 0 41.6666666667%;
+  }
+  .row .m6 {
+    flex: 0 0 50%;
+  }
+  .row .m7 {
+    flex: 0 0 58.3333333333%;
+  }
+  .row .m8 {
+    flex: 0 0 66.6666666667%;
+  }
+  .row .m9 {
+    flex: 0 0 75%;
+  }
+  .row .m10 {
+    flex: 0 0 83.3333333333%;
+  }
+  .row .m11 {
+    flex: 0 0 91.6666666667%;
+  }
+  .row .m12 {
+    flex: 0 0 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .row .s1 {
+    flex: 0 0 8.3333333333%;
+  }
+  .row .s2 {
+    flex: 0 0 16.6666666667%;
+  }
+  .row .s3 {
+    flex: 0 0 25%;
+  }
+  .row .s4 {
+    flex: 0 0 33.3333333333%;
+  }
+  .row .s5 {
+    flex: 0 0 41.6666666667%;
+  }
+  .row .s6 {
+    flex: 0 0 50%;
+  }
+  .row .s7 {
+    flex: 0 0 58.3333333333%;
+  }
+  .row .s8 {
+    flex: 0 0 66.6666666667%;
+  }
+  .row .s9 {
+    flex: 0 0 75%;
+  }
+  .row .s10 {
+    flex: 0 0 83.3333333333%;
+  }
+  .row .s11 {
+    flex: 0 0 91.6666666667%;
+  }
+  .row .s12 {
+    flex: 0 0 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .row .xs1 {
+    flex: 0 0 8.3333333333%;
+  }
+  .row .xs2 {
+    flex: 0 0 16.6666666667%;
+  }
+  .row .xs3 {
+    flex: 0 0 25%;
+  }
+  .row .xs4 {
+    flex: 0 0 33.3333333333%;
+  }
+  .row .xs5 {
+    flex: 0 0 41.6666666667%;
+  }
+  .row .xs6 {
+    flex: 0 0 50%;
+  }
+  .row .xs7 {
+    flex: 0 0 58.3333333333%;
+  }
+  .row .xs8 {
+    flex: 0 0 66.6666666667%;
+  }
+  .row .xs9 {
+    flex: 0 0 75%;
+  }
+  .row .xs10 {
+    flex: 0 0 83.3333333333%;
+  }
+  .row .xs11 {
+    flex: 0 0 91.6666666667%;
+  }
+  .row .xs12 {
+    flex: 0 0 100%;
+  }
+}/*# sourceMappingURL=grid.css.map */

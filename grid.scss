@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$column: 12;
+
+.grid-style{
+    background-color: #cacaca;
+    border: 1px  solid #000;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    .col{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    @for $i from 1 through $column{
+        .l#{$i}{
+            flex: 0 0 100% / $column *  $i;
+        }
+    }
+    @media only screen and (max-width: 1024px) {
+        @for $i from 1 through $column{
+            .m#{$i}{
+                flex: 0 0 100% / $column *  $i;
+            }
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        @for $i from 1 through $column{
+            .s#{$i}{
+                flex: 0 0 100% / $column *  $i;
+            }
+        } 
+    }
+    @media only screen and (max-width: 425px) {
+        @for $i from 1 through $column{
+            .xs#{$i}{
+                flex: 0 0 100% / $column *  $i;
+            }
+        }
+    }
+}
